@@ -161,8 +161,8 @@ GET
 | currency |  | string | max 10 | Currency code, default **USD** |
 | status | * | string | max 100 | Order status name from **Dictionary** |
 | statusId | * | string | max 10 | Order status identifier from **Dictionary** |
-| type | * | string | max 100 | Order type name from **Dictionary** |
-| typeId | * | string | max 10 | Order type identifier from **Dictionary** |
+| type |  | string | max 100 | Order type name from **Dictionary** |
+| typeId |  | string | max 10 | Order type identifier from **Dictionary** |
 | customerId | * | string | max 64  | Customer's identifier |
 | customerNotes | | string | max 8000 | Customer's notes or Cutting instructions |
 | channel | | string | max 100 | Order channel name from **Dictionary**|
